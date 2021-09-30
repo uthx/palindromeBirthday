@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: 
+    #60A5FA;
+    --secondary-color:white;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* container style */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 1.5rem auto;
+    padding: 0 auto;
+}
+.container .heading{
+    margin: 0.5rem auto;
+    text-align: center;
+}
+.container p{
+    font-weight: bold;
+}
+.container .output{
+    font-size: 900;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+label{
+    margin: 1rem auto;
+    text-align: center;
+    font-size: x-large;
+}
+input{
+    margin: 0.7rem auto;
+    padding: 0.3rem 0.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+button{
+    margin: 1rem auto;
+    padding: 0.7rem 1rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+/* footer style */
+.footer{
+    margin: 3rem auto;
+    text-align: center;
+    
+}
+.footer a{
+    text-decoration: none;
+}
+
+.footer .footer-list{
+    margin: 1rem auto;
+    list-style: none;
+}
+.footer .footer-list .footer-list-item{
+    display: inline-flex;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem auto;
+    flex-direction: column;
+}
+.footer-list a{
+    text-decoration: none;
+    
+}
