@@ -3,8 +3,8 @@ function reverseStr(str){
 }
 
 function isPalindrome(str){
-    var reverse = reverseStr(str);
-    return str === reverse
+    var reverse=reverseStr(str);
+    return str===reverse
 }
 
 function convertDateToStr(date){

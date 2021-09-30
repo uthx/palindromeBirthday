@@ -51,6 +51,7 @@ button{
     background-color: var(--primary-color);
     border: none;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 
